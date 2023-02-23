@@ -5,8 +5,8 @@ import downImage from '../../assets/down.png'
 
 
 type Props = {
-    data: Level
-} | null
+    data: any
+}
 
 export const Griditem = ({data}: Props) =>{
     

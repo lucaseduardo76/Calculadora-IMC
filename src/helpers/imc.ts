@@ -17,7 +17,7 @@ export const levels = [
     {title: 'Obesidade', color: '#C3423F', icon: 'down', imc:[30.1, 99], yourImc: 0}
 ];
 
-export const calculateImc = (height: number, weight: number) => {
+export const calculateImc = (height: number, weight: number): any => {
     const imc = weight / (height**2);
 
     for (let i in levels){

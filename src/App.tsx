@@ -8,7 +8,7 @@ import { Griditem } from './componets/Griditens';
 const App = () => {
   const [heightField, setHeightField] = useState<number>(0)
   const [weightField, setWeightField] = useState<number>(0)
-  const [toShow, setToShow] = useState<Level | null>(null);
+  const [toShow, setToShow] = useState<Level | null | any>(null);
 
   const handleCalculateButton = () => {
     if (heightField && weightField) {
