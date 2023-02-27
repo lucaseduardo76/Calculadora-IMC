@@ -2,7 +2,9 @@
 
 Esta é uma calculadora de Índice de Massa Corporal (IMC) desenvolvida com React JS e Typescript, utilizando o módulo CSS para estilização.
 
-- https://app.netlify.com/sites/imc-lucas/
+- <a href="https://app.netlify.com/sites/imc-lucas/" target="_blank"> Ir para a página </a>
+
+ 
 
 ## Como executar o projeto
 
